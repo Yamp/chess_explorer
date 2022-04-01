@@ -29,7 +29,7 @@ class StockfishEngine(BaseEngine):
                 # Ресурсы
                 'Threads': os.cpu_count(),  # ядра
                 'Hash': 1 * 1024,  # память в мб
-                'Ponder': True,  # думаем, даже когда сделали ход.
+                'Ponder': "true",  # думаем, даже когда сделали ход.
 
                 # Управление временем
                 "Move Overhead": 30,  # milliseconds
@@ -40,12 +40,12 @@ class StockfishEngine(BaseEngine):
                 'Contempt': 0,
                 "Min Split Depth": 0,
                 'Skill Level': 20,
-                'Use NNUE': True,  # используем нейросетки
+                'Use NNUE': "true",  # используем нейросетки
                 # "SyzygyPath": "C:\\tablebases\\wdl345;C:\\tablebases\\wdl6;D:\\tablebases\\dtz345;D:\\tablebases\\dtz6",
 
                 # ненужные параметры
                 # "UCI_AnalyseMode": "false",
-                # "UCI_Elo": 1350,
+                "UCI_Elo": 5000,
                 "UCI_Chess960": "false",
                 "UCI_ShowWDL": "false",
                 "UCI_LimitStrength": "false",
@@ -75,7 +75,7 @@ class StockfishEngine(BaseEngine):
 
         return False
 
-    def get_move(self, time: int = 1000):
+    def get_move(self):
         """Получаем лучший ход."""
         move = self.make_book_move_if_possible()
         if move:
@@ -87,7 +87,7 @@ class StockfishEngine(BaseEngine):
         self.stockfish.make_moves_from_current_position([str(player_move)])
 
         print("Getting stockfish move")
-        move = self.stockfish.get_best_move_time(time)
+        move = self.stockfish.get_best_move_time(self.move_time)
 
         print(f"Adding stockfish move {move}")
         self.stockfish.make_moves_from_current_position([str(move)])

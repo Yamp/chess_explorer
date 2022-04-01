@@ -71,7 +71,7 @@ def main():
 
     e1 = StockfishEngine(
         use_book=True,
-        move_time=1000,
+        move_time=60 * 1000,
     )
     e2 = HumanPlayer('player')
 
