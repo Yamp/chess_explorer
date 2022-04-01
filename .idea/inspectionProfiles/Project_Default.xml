@@ -1,0 +1,164 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="AlphaUnsortedPropertiesFile" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="ComposeMissingKeys" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="DuplicatePropertyInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="88" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="html" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="InconsistentLineSeparators" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="LongLine" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="Mypy" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="ProblematicWhitespace" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyAugmentAssignmentInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyBehaveInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyClassicStyleClassInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyMethodMayBeStaticInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyMissingOrEmptyDocstringInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyMissingTypeHintsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredPackages">
+        <value>
+          <list size="44">
+            <item index="0" class="java.lang.String" itemvalue="black" />
+            <item index="1" class="java.lang.String" itemvalue="fissix" />
+            <item index="2" class="java.lang.String" itemvalue="dpcontracts" />
+            <item index="3" class="java.lang.String" itemvalue="pytest-sugar" />
+            <item index="4" class="java.lang.String" itemvalue="pyschedule" />
+            <item index="5" class="java.lang.String" itemvalue="werkzeug" />
+            <item index="6" class="java.lang.String" itemvalue="retype" />
+            <item index="7" class="java.lang.String" itemvalue="falcon" />
+            <item index="8" class="java.lang.String" itemvalue="mypy" />
+            <item index="9" class="java.lang.String" itemvalue="pysnooper" />
+            <item index="10" class="java.lang.String" itemvalue="iteration-utilities" />
+            <item index="11" class="java.lang.String" itemvalue="monkeytype" />
+            <item index="12" class="java.lang.String" itemvalue="gunicorn" />
+            <item index="13" class="java.lang.String" itemvalue="icecream" />
+            <item index="14" class="java.lang.String" itemvalue="fastcache" />
+            <item index="15" class="java.lang.String" itemvalue="wdb" />
+            <item index="16" class="java.lang.String" itemvalue="pytest-falcon-client" />
+            <item index="17" class="java.lang.String" itemvalue="frozendict" />
+            <item index="18" class="java.lang.String" itemvalue="hypothesis" />
+            <item index="19" class="java.lang.String" itemvalue="pampy" />
+            <item index="20" class="java.lang.String" itemvalue="snoop" />
+            <item index="21" class="java.lang.String" itemvalue="polyline" />
+            <item index="22" class="java.lang.String" itemvalue="diskcache" />
+            <item index="23" class="java.lang.String" itemvalue="absl" />
+            <item index="24" class="java.lang.String" itemvalue="multidict" />
+            <item index="25" class="java.lang.String" itemvalue="rich" />
+            <item index="26" class="java.lang.String" itemvalue="ortools" />
+            <item index="27" class="java.lang.String" itemvalue="fbprophet" />
+            <item index="28" class="java.lang.String" itemvalue="deal" />
+            <item index="29" class="java.lang.String" itemvalue="beartype" />
+            <item index="30" class="java.lang.String" itemvalue="numba" />
+            <item index="31" class="java.lang.String" itemvalue="xarray" />
+            <item index="32" class="java.lang.String" itemvalue="termcolor" />
+            <item index="33" class="java.lang.String" itemvalue="python-igraph" />
+            <item index="34" class="java.lang.String" itemvalue="autologging" />
+            <item index="35" class="java.lang.String" itemvalue="better-exceptions" />
+            <item index="36" class="java.lang.String" itemvalue="multipledispatch" />
+            <item index="37" class="java.lang.String" itemvalue="pycontracts" />
+            <item index="38" class="java.lang.String" itemvalue="returns" />
+            <item index="39" class="java.lang.String" itemvalue="bidict" />
+            <item index="40" class="java.lang.String" itemvalue="deepdict" />
+            <item index="41" class="java.lang.String" itemvalue="networkx" />
+            <item index="42" class="java.lang.String" itemvalue="pprintpp" />
+            <item index="43" class="java.lang.String" itemvalue="lapjv" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E131" />
+          <option value="E122" />
+          <option value="E741" />
+          <option value="E203" />
+          <option value="E266" />
+          <option value="E701" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N806" />
+          <option value="N803" />
+          <option value="N814" />
+          <option value="N812" />
+          <option value="N813" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+          <option value="any" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredStubPackages">
+        <list>
+          <option value="pyspark-stubs" />
+          <option value="pyspark-stubs" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="mw_flow_calculator.models.basic_models.Node.real_node" />
+          <option value="pyspark.sql.session.SparkSession._instantiatedSession" />
+          <option value="dict.cannot_process" />
+          <option value="mw_flow_calculator.models.basic_models.Node.technologies" />
+          <option value="mw_flow_calculator.models.basic_models.Node.wastes" />
+          <option value="dict.residulas" />
+          <option value="dict.residuals" />
+          <option value="mw_flow_calculator.models.basic_models.Node.hides_landfill" />
+          <option value="dict.residuals_of_transformer" />
+          <option value="mw_flow_calculator.models.basic_models.Node.position" />
+          <option value="models.points.Point.must_return" />
+          <option value="list.__getitem__" />
+          <option value="dict.__getitem__" />
+          <option value="Returns" />
+          <option value="id" />
+          <option value="costs" />
+          <option value="scipy.spatial.qhull.Delaunay.*" />
+          <option value="pyomo.environ.NonNegativeReals" />
+          <option value="pyomo.environ.Reals" />
+          <option value="pyomo.environ.NonNegativeIntegers" />
+          <option value="pyomo.environ.Boolean" />
+          <option value="mw_flow_calculator.transformers.speedups.constraints_tightener.supplies" />
+          <option value="experiments.libs._machines.Matter.state" />
+          <option value="madrich.db.models.AggregationTask.objects" />
+          <option value="madrich.db.models.Profile.objects" />
+          <option value="madrich.db.models.Skill.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
